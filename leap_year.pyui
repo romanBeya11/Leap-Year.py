@@ -1,0 +1,89 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{48, 16}, {375, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "8581CA03-55C1-4DA0-A3A1-5767B764B33D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Determine if this year is a “leap year”",
+          "name" : "description_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{48, 180}, {367, 106}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "output_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "70CEDF69-17C3-4529-890C-27D9349C4191",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{136, 56}, {200, 35}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "calculate_if_leapyear_textfield",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "84CCCB3F-EFCB-441E-AD0D-7A4A60ADB0FF",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{155, 123}, {164, 41}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_if_leapyear_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate Year",
+          "uuid" : "66F00701-20D6-44BB-B0C8-3F2376C0DEBF",
+          "class" : "Button",
+          "font_bold" : true,
+          "name" : "calculate_if_leapyear_button",
+          "font_size" : 19
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
